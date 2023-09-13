@@ -42,15 +42,7 @@ class RoutesController extends Controller
             if (!$uriFormat) {
                 break;
             }
-            // If we have more than one dynamic parameter, convert it to a rest param
-            if (str_contains($uriFormat, '}/{')) {
-                $uriFormats[] = '[...uri]';
-                break;
-            }
-            // If it is not the home section, add it
-            if ($uriFormat != '__home__') {
-                $uriFormats[] = $uriFormat;
-            }
+            $uriFormats[] = $uriFormat;
         }
         $uriFormats = array_unique($uriFormats);
         if (!$uriFormats) {
