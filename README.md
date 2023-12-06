@@ -2,7 +2,7 @@
 
 Adds a controller to generate a routes config file.
 
-The generated endpoint is `/actions/routes-api/routes/get`.
+The generated endpoint is `/actions/routes-api/routes/get` and `/actions/routes-api/sites/locales`.
 
 ## Requirements
 
