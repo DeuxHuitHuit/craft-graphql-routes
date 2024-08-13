@@ -2,7 +2,7 @@
     "name": "deuxhuithuit/craft-routes-api",
 	"description": "Adds a controller to generate a routes config file.",
     "type": "craft-plugin",
-	"version": "2.1.1",
+	"version": "3.0.0",
     "license": "MIT",
 	"authors": [
 		{
@@ -17,8 +17,8 @@
 		"docs": "https://github.com/DeuxHuitHuit/craft-routes-api/blob/main/README.md"
 	},
     "require": {
-        "php": ">=8.0.2",
-        "craftcms/cms": "^4.5.0"
+        "php": ">=8.2.0",
+        "craftcms/cms": "^4.5.0|^5.0.0"
     },
     "require-dev": {
         "craftcms/ecs": "dev-main",
